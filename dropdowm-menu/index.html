@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>下拉菜单</title>
+<style type="text/css">
+.dd{                          /*dd=dropdown*/
+	position:relative;  
+	display:inline-block;
+
+}
+.ddbt{                        /*ddbt=dropdown-button*/
+	width: 150px;
+	height: 80px;
+	background-color: #00B3FF;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px #A8A8A8;
+	font-size: 18px;
+	font-weight: bold;
+	color: #B1B1B1;
+	cursor: pointer;
+}
+.ddc{                            /*ddc=dropdown-content*/
+	display: none;
+	position: absolute;
+	min-width: 150px;
+	box-shadow: 0 5px 10px #939393;
+}
+.ddc a{
+	display: block;
+	background-color: #00D42C;
+	height: 40px;
+	text-decoration: none;
+	color: #888888;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 12px;
+}
+.ddc a:hover{ 
+	background-color:#2BFF22; 
+	color:#000000;
+}
+.dd:hover .ddc{ 
+	display:block;
+}
+.dd:hover .ddbt{ 
+	background-color:#00C3FF; 
+	color:#FFFFFF;
+}
+</style>
+</head>
+
+<body>
+<div class="dd">
+    <button class="ddbt" type="button">下拉菜单</button>
+    <div class="ddc">
+        <a href="#">链接1</a>
+        <a href="#">链接2</a>
+        <a href="#">链接3</a>
+        <a href="#">链接4</a>
+    </div>
+</div>
+</body>
+</html>
