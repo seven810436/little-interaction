@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>分页</title>
+		<style>
+			.pagination {
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.pagination li {
+				display: inline;
+				list-style-type: none;
+			}
+			
+			.pagination li a {
+				padding: 8px 16px;
+				text-decoration: none;
+				color: black;
+				background-color: antiquewhite;
+				float: left;
+				border-radius: 5px;
+				transition: 0.2s;
+			}
+			
+			.pagination li a.active {
+				background-color: #32CD32;
+				color: white;
+			}
+			
+			.pagination li a:hover {
+				background-color: #A9A9A9;
+				box-shadow: 0px 5px 10px #696969;
+			}
+			
+			.center {
+				text-align: center;
+				margin-top: 100px;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<div class="center">
+			<ul class="pagination">
+				<li><a href="#">&laquo;</a></li>
+				<li><a href="#">1</a></li>
+				<li><a class="active" href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#">7</a></li>
+				<li><a href="#">&raquo;</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
