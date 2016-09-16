@@ -5,3 +5,5 @@
 <img src="https://raw.githubusercontent.com/seven810436/little-interaction/master/dropdowm-menu/GIF.gif"><hr>
 <h3>二、按钮的各种用法</h3>
 <img src="https://github.com/seven810436/little-interaction/blob/master/button/GIF6.gif"><hr>
+<h3>三、分页</h3>
+<img src="https://github.com/seven810436/little-interaction/blob/master/pagination/GIF7.gif"><hr>
